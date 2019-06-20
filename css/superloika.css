@@ -40,7 +40,8 @@ strong {
 /* Header */
 #main-header {
     color: #ffffff;
-    background: url('../img/header.jpg') center;
+/*     background: url('../img/header.jpg') center; */
+    background: linear-gradient(to bottom right, black, gray);
     padding-top: 35px;
 }
 #main-header #profile a {
