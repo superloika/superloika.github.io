@@ -42,7 +42,8 @@ strong {
 #main-header {
     color: #ffffff;
 /*     background: url('../img/header.jpg') center; */
-    background: linear-gradient(to bottom right, black, gray);
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);
+    /* background-color: #263238; */
     padding-top: 35px;
 }
 #main-header #profile a {
@@ -135,19 +136,21 @@ nav ul li {
     display: inline-block;
 }
 nav ul li a {
-    color: #000000;
+    color: #039be5;
     padding: 10px;
-    font-weight: 500;
+    font-weight: bold;
     text-transform: uppercase;
 }
 nav ul li a:hover {
     /* color: #ff4500; */
-    color: #3374d6;
-    font-weight: bold;
+    color: #302b63;
+    /* background-color: #3374d6; */
+    /* background: linear-gradient(to top, #0f0c29, #302b63, #24243e); */
+    
 }
 nav ul li a.active{
-    color: #70a6f7;
-    font-weight: bold;
+    color: #302b63;
+    /* background: linear-gradient(to top, #0f0c29, #302b63, #24243e); */
 }
 
 
@@ -162,7 +165,8 @@ nav ul li a.active{
 /* Main Content */
 #main-content {
     margin-top: -3px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    /* background: linear-gradient(to top, #ece9e6, #ffffff, #ece9e6); */
     width: 85%;
     margin: auto;
     padding: 50px;
@@ -256,7 +260,8 @@ nav ul li a.active{
 /* Footer */
 footer {
     clear: left;
-    background-color: #212121;
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e);
+    /* background-color: #263238; */
     color: #8b8b8b;
     text-align: center;
     padding-bottom: 20px;
