@@ -23,7 +23,8 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: 30% auto;
+    /* grid-template-columns: 30% auto; */
+    grid-template-columns: auto;
 }
 
 section#side-nav ul {
@@ -35,7 +36,8 @@ section#side-nav ul {
 #left-section {
     /* position: fixed; */
     padding: 20px;
-    background-color: #ffbb00;
+    /* background-color: #00a2ff; */
+    background-color: #ffd000;
 }
 
 #right-section {
@@ -47,6 +49,10 @@ section#side-nav ul {
 .right-subsections {
     padding: 0 20px 50px;
     margin: 0;
+}
+
+#avatar-name {
+    color: #ffffff;
 }
 
 #avatar-image-placeholder {
@@ -65,6 +71,10 @@ section#avatar, section#socials, section#side-nav {
     text-align: center;
 }
 
+section#socials {
+    padding-top: 12px;
+}
+
 #left-section a {
     color: #ffffff;
     text-decoration: none;
@@ -74,6 +84,7 @@ section#avatar, section#socials, section#side-nav {
 #left-section a:hover {
     /* text-decoration: underline; */
     background-color: #000000;
+    color: #ffd900;;
 }
 
 #left-section a:visited {
@@ -120,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .badge-green {
-    background-color: #009e77;
+    background-color: #03bd8e;
 }
 
 .badge-ube {
@@ -141,8 +152,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     main {
         grid-template-columns: auto;
     }
-}
+} */
