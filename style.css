@@ -35,20 +35,20 @@ section#side-nav ul {
 
 #left-section {
     /* position: fixed; */
-    padding: 20px;
+    padding: 48px;
     /* background-color: #00a2ff; */
     background-color: #ffd000;
 }
 
 #right-section {
-    padding: 0;
-    margin: 0;
-    /* background-color: #f7f7f7; */
+    padding: 12px;
 }
 
 .right-subsections {
-    padding: 0 20px 50px;
+    padding: 20px;
     margin: 0;
+    margin-bottom: 12px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
 
 #avatar-name {
@@ -73,6 +73,10 @@ section#avatar, section#socials, section#side-nav {
 
 section#socials {
     padding-top: 12px;
+}
+
+section#socials a {
+    padding: 4px;
 }
 
 #left-section a {
@@ -151,9 +155,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (max-width: 768px) {
-    main {
-        grid-template-columns: auto;
+@media only screen and (max-width: 768px) {
+    section#socials a{
+        display: block;
     }
-} */
+    section#right-section {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    section#right-section {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    section#right-section {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    section#right-section {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
